@@ -1,0 +1,17 @@
+{
+    "name": "isaad/setup",
+    "autoload": {
+        "psr-4": {
+            "Isaad\\Setup\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saad Iqbal",
+            "email": "iqbal.saad@travelbrands.com"
+        }
+    ],
+    "require": {
+        "phpunit/php-timer": "^5.0"
+    }
+}
