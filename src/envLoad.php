@@ -10,6 +10,6 @@
     //assign to variable from env file. $_SERVER is to reference as a super global and $_ENV is loading it as is.
     $s3_bucket = $_SERVER['S3_BUCKET'];
     $key = $_SERVER['SECRET_KEY'];
-
-    echo $s3_bucket, ' ', $key;
+    $local_key = $_ENV['SECRET_KEY'];
+    echo 'Super Globals: ', $s3_bucket, ' ', $key, ' local: ', $local_key;
 ?>
