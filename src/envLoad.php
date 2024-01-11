@@ -11,5 +11,5 @@
     $s3_bucket = $_SERVER['S3_BUCKET'];
     $key = $_SERVER['SECRET_KEY'];
     $local_key = $_ENV['SECRET_KEY'];
-    echo 'Super Globals: ', $s3_bucket, ' ', $key, ' local: ', $local_key;
+    echo 'Super Globals: ', $s3_bucket, ' ', $key, '<br /> local: ', $local_key;
 ?>
